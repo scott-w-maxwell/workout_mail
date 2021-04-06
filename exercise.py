@@ -9,7 +9,7 @@ class Exercise:
 
 		
 		self.name = name
-		self.type = workout_type
+		self.exercise_type = exercise_type
 		self.reps = reps
 		self.sets = sets
 		self.picture_url = picture_url
@@ -25,4 +25,16 @@ class Exercise:
 # Include
 class Routine:
 
-	def __init__(exercise, level):
+	def __init__(exercises, level):
+
+		# calculate amount of reps and sets
+		for exercise in exercieses:
+			exercise.reps = exercise.reps * level
+			exercise.sets = exercise.sets * level
+
+
+class Workout_Schedule:
+	# TODO - create the properties of the workout_schedule class
+	def __init__(days_per_week):
+		pass
+

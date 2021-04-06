@@ -1,3 +1,7 @@
+from exercise import Exercise
+
+# TODO - add type exercise_type sets, reps,
+
 # Exercise Definitions
 BenchPress = Exercise(
     "Bench Press",

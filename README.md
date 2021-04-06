@@ -3,8 +3,9 @@ A python script that sends workouts for the day.
 
 # Hierarchy
 
-# Routine
-	# Workout
+- Workout_Schedule
+	- Routine
+		- Exercises
 
 # How to setup 
 TBD
